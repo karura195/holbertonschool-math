@@ -5,6 +5,14 @@
 #include <stdlib.h>
 #include <math.h>
 
+/**
+ * struct complex - elements of a complex number
+ * @re: real part of the complex number
+ * @im: imaginary part of the complex number
+ *
+ * Description: complex number formed of re + im i
+ */
+
 struct complex
 {
   double re;
