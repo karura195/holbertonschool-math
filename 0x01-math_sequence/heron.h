@@ -21,7 +21,5 @@ struct list_math *next;
 
 void print_list(t_cell *head);
 t_cell *heron(double p, double x0);
-t_cell *Fibonnaci();
-double gold_number(t_cell *head);
 
-#endif HERON_H
+#endif /* HERON_H */
